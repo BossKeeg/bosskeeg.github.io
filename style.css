@@ -7,3 +7,19 @@ body {
 body {
   color: black;
 }
+
+/* center all elements on the page */
+.container {
+  width: 80%; /*set the width of the container*/
+  margin: 0 auto; /* center the container horizontally */
+}
+
+/* center the text within the headings */
+h2 {
+  text-align: center;
+}
+
+/* center the text within the navigation links */
+nav a {
+  text-align: center;
+}
