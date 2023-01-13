@@ -1,25 +1,29 @@
-/* Change the background color to purple */
-body {
-  background-color: purple;
+header {
+  background-color: #F5F5F5;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
 }
-
-/* Change the text color to black */
-body {
-  color: black;
+header nav {
+  display: flex;
+  justify-content: space-between;
 }
-
-/* center all elements on the page */
-.container {
-  width: 80%; /*set the width of the container*/
-  margin: 0 auto; /* center the container horizontally */
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
-
-/* center the text within the headings */
-h2 {
-  text-align: center;
+header nav li {
+  padding: 8px;
 }
-
-/* center the text within the navigation links */
-nav a {
-  text-align: center;
+header nav a {
+  text-decoration: none;
+  color: #000;
+}
+header nav a:hover {
+  color: #555;
 }
